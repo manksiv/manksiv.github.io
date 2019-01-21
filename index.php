@@ -58,9 +58,6 @@
 				</div>
 		</section>
 		<section class="main__contact" id="contact">
-<?php
-	if(!isset($_POST['name'])){
-echo '
 			<form name="contact" method="post">
 				<h1>Need a project?</h1>
 				<p>Let me know what do you want bring to life and i sure to help.</p>
@@ -71,8 +68,8 @@ echo '
 				<textarea name="comment" placeholder="Your Comment" id="" cols="30" rows="10" required></textarea>
 				<input type="submit" value="Send">
 			</form>
-';
-}else{
+<?php
+	if(isset($_POST['name'])){
 	$name=$_POST['name'];
 	$email=$_POST['email'];
 	$comment=$_POST['comment'];
