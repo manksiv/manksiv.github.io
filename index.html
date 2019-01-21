@@ -82,7 +82,12 @@
 	$name = trim($name);
 	$email = trim($email);
 	$comment = trim($comment);
-	mail("maneeva.se@gmail.com", "Заявка с сайта", "Имя:".$name.". Текст: ".$comment ,"From: ".$email." \r\n");
+	if(mail("maneeva.se@gmail.com", "Заявка с сайта", "Имя:".$name.". Текст: ".$comment ,"From: ".$email." \r\n")){
+echo "Сообщение успешно отправлено"; 
+ } else { 
+ echo "При отправке сообщения возникли ошибки";
+ }
+}
 }
 ?>
 		</section>
