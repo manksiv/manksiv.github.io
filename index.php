@@ -58,7 +58,7 @@
 				</div>
 		</section>
 		<section class="main__contact" id="contact">
-			<form name="contact" method="post">
+			<form name="contact" method="GET">
 				<h1>Need a project?</h1>
 				<p>Let me know what do you want bring to life and i sure to help.</p>
 				<div class="contact__inputs">
@@ -69,10 +69,10 @@
 				<input type="submit" value="Send">
 			</form>
 <?php
-	if(isset($_POST['name'])){
-	$name=$_POST['name'];
-	$email=$_POST['email'];
-	$comment=$_POST['comment'];
+	if(isset($_GET['name'])){
+	$name=$_GET['name'];
+	$email=$_GET['email'];
+	$comment=$_GET['comment'];
 	$name = htmlspecialchars($name);
 	$email = htmlspecialchars($email);
 	$comment = htmlspecialchars($comment);
