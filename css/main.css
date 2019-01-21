@@ -244,6 +244,25 @@ form p{
 	margin-top: 35px;
 	color: #787878;
 }
+footer{
+	font-family: Montserrat;
+	background-color: #141414;
+	color: #bcbcbc;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+footer li{
+	margin-left: 30px;
+}
 @media screen and (max-width: 1010px){
 	.about__left{
 		display: none;
