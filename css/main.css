@@ -244,4 +244,10 @@ footer{
 		display: block;
 		text-align: right;
 	}
+	.main__contact img{
+		margin-right: 0;
+	}
+	.portfolio__examples{
+		grid-template-columns: auto;
+	}
 }
