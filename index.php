@@ -82,7 +82,7 @@
 	$name = trim($name);
 	$email = trim($email);
 	$comment = trim($comment);
-	mail("maneeva.se@gmail.com", "Заявка с сайта", "Имя:".$name.". Текст: ".$comment ,"From: info@manksiv.github.io \r\n");
+	mail("maneeva.se@gmail.com", "Заявка с сайта", "Имя:".$name.". Текст: ".$comment ,"From: ".$email." \r\n");
 }
 ?>
 		</section>
