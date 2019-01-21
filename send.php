@@ -1,8 +1,7 @@
 <?php
-	if(isset($_GET['name'])){
-	$name=$_GET['name'];
-	$email=$_GET['email'];
-	$comment=$_GET['comment'];
+	$name="hhhh";
+	$email="ksenia.seriozhenko@gmail.com";
+	$comment=" ghj";
 	$name = htmlspecialchars($name);
 	$email = htmlspecialchars($email);
 	$comment = htmlspecialchars($comment);
@@ -17,6 +16,5 @@ echo "Сообщение успешно отправлено";
  } else { 
  echo "При отправке сообщения возникли ошибки";
  }
-}
 }
 ?>
