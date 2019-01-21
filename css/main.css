@@ -178,69 +178,24 @@ img:hover{
 	grid-template-columns: auto auto;
 }
 .main__contact{
+	background-color: #f5f5f5;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
-	background-color: #f5f5f5;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-form{
-	font-family: Montserrat ;
-	width: 670px;
 	text-align: center;
-	display: grid;
-	grid-template-columns: auto;
+	font-family: Montserrat;
 }
-.contact__inputs{
-	display: inline;
-}
-.contact__inputs input{
-	border: none;
-	width: 320px;
-	float: left;
-	height: 38px;
-	padding-left: 20px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-bottom: 30px;
-	margin-top: 38px;
-}
-.contact__inputs input:last-of-type{
-	float: right;
-	margin-right: 0;
-}
-textarea{
-	border: none;
-	font-size: 14px;
-	padding-left: 20px;
-	padding-top: 18px;
-	width: 100%;
-	height: 163px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-input[type="submit"]{
-	width: 100%;
-	height: 54px;
-	background-color: #10c9c3;
-	color: white;
-	border: none;
-	margin-top: 30px;
-}
-input[type="submit"]:hover{
-	background-color: #75DBD8;
-}
-form h1{
+.main__contact h1{
 	color:  #1d1d1d;
 	font-size: 30px;
 }
-form p{
+.main__contact p{
+	font-size: 18px;
 	margin-top: 35px;
 	color: #787878;
 }
@@ -252,16 +207,16 @@ footer{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-footer ul{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
+.main__contact li{
+	font-size: 18px;
+	display: block;
 }
-footer li{
-	margin-left: 30px;
+.main__contact img{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-bottom: -10px;
+	margin-right: 5px;
 }
 @media screen and (max-width: 1010px){
 	.about__left{
