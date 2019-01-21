@@ -87,6 +87,12 @@
 ?>
 		</section>
 	</main>
+	<footer>
+		<ul>
+			<li><p><i><b>E-mail:</b> maneeva.se@gmail.com </i></p></li>
+			<li><p><i><b>Viber,WhatsApp:</b> +380996762624</i></p></li>
+		</ul>
+	</footer>
 <script src="js/jquery.js"></script>
 <script src="js/main.js"></script>
 </body>
