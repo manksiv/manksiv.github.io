@@ -49,7 +49,7 @@ nav:hover .topnav a{
 	filter: blur(5px);
 }
 nav .topnav a:hover{
-	color: white;
+	
 	transform: scale(2);
 	opacity: 1;
 	filter: blur(0);
@@ -61,7 +61,7 @@ nav .topnav a:before{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #10c9c3;
+	
 	transition: transform 0.5s;
 	transform-origin: right;
 	transform: scaleX(0);
