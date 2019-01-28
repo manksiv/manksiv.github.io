@@ -30,6 +30,7 @@ header{
 	display: none;
 }
 .topnav{
+	margin-top: 10px;
 	margin-right: 7.1%;
 	transition: 0.5s;
 }
